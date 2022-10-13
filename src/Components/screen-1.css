@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+.App{
+   
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 0px 25px;
+    background-color: #f4f4f4;
+}
+.Aromatic-bar{
+    background-color: white;
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 15px;
+   height: 40px;
+   /* border: 1px solid black; */
+}
+.Aromatic-bar h2{
+    margin-top: 2px;
+    margin-left: 12px;
+   /* border: 1px solid black; */
+    display: inline-block;
+
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 5px 5px */
+    margin: 15px 15px;
+    height: auto;
+}
+.left-side-part{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 50%;
+    margin-right:10px ;
+    background-color: white;
+    /* margin: 30px 10px 0px 10px; */
+    padding: 30px 10px 0 28px;
+    height: 500px;
+    
+
+}
+.right-side-part{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 500px;
+    border-radius: 5px;
+    margin-left:10px ;
+    background-color: white;
+    /* margin: 30px 10px 0px 10px; */
+    padding: 30px 10px 0 28px;
+}
+.email-text-part{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.customer-name-input-box{
+    width: 95.5%;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.customer-name-input-box:focus{
+    outline: none;
+}
+/* .phone-number-input-box{
+size: 20px; 
+   border: 1px solid black;
+   height: 50px;
+} */
+.email-input-box{
+    width: 96.5%;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.email-input-box:focus{
+    outline: none;
+}
+.customername{
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.PhoneInput{
+    height: 50px;
+    margin-top: 13px;
+}
+.PhoneInputCountry{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    border: 1px solid grey;
+    width: 50px;
+    padding: 3px 7px;
+    height: 33px;
+    border-radius: 5px;
+}
+.PhoneInputCountryIconImg{
+    width: 29px;
+    height: 36px;
+}
+.PhoneInputCountrySelect{
+    width: 20px;
+    height: 35px;
+    border: none;
+}
+.PhoneInputInput{
+    position: relative;
+    bottom: 42px;
+    left: 57px;
+    width: 81.5%;
+    margin-left: 25px;
+    height: 39px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    /* border: 1x solid grey; */
+    /* border: none; */
+    border: 1px solid grey;
+}
+.PhoneInputInput:focus{
+    outline: none;
+}
+.phone-text{
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+#Countries{
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 35px;
+    border: 1px solid grey;
+    margin-right: 15px;
+    margin-left: 5px;
+    border-radius:5px;
+}
+/* .checkbox-elements{
+    border: 1px solid black;
+    color: pink ;
+} */
+.rating-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.rating-checkbox-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-checkbox input{
+    margin-left: 40px;
+    font-weight: 600;
+}
+.rating-checkbox input:first-of-type{
+    margin-left: 0;
+}
+.rating-checkbox label{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#warn-icon{
+    margin-left: -5px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.error-notice{
+    /* border: 1px solid black; */
+    display: block;
+    height: 18%;
+}
+.error-text{
+    /* border: 1px solid black; */
+    border: 1px solid red;
+    background-color: rgb(254, 217, 217);
+    border-radius: 5px;
+    font-weight: 400;
+    color: red;
+    padding: 5px 15px;
+    margin-top: 0;
+}
+.submit-btn{
+    background-color: green;
+    padding: 12px 10px;
+    width: 140px;
+    float: right;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#red-star{
+    color: red;
+    font-size: 9px;
+    position: relative;
+    bottom: 5px;
+}
+/* input.Largercheckbox{
+    background-color: violet;
+} */
+/* .Largercheckbox{
+    width: 25px;
+    height: 25px;
+    color: violet;
+    background-color: violet;
+} */
+input[type="checkbox"]{
+    width: 18px; /*Desired width*/
+    height: 18px; /*Desired height*/
+    accent-color:  #8F00FF;
+  }
+
